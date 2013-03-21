@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.gesis</groupId>
   <artifactId>ddi</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.5-SNAPSHOT</version>
   <packaging>pom</packaging>
   
   <modules>
@@ -43,19 +43,5 @@
 		</plugin>
   	</plugins>
   </build>
-  
-  	<distributionManagement>
-		<!-- use the following if you ARE using a snapshot version. -->
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>Global Gesis Snapshot Repository</name>
-			<url>http://svbo-linux-test2:8081/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
-
-	<ciManagement>
-		<url>http://svkowts-ci/</url>
-		<system>teamcity</system>
-	</ciManagement>
   
 </project>
